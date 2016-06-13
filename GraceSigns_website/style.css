@@ -1,0 +1,216 @@
+/*-------- Header style ---------*/
+#headerall {
+    position: relative;
+    height: auto;
+    overflow: auto;
+    width: 100%;
+    color: #000;
+    background-color: #000;
+    font-family:'BrandonGrotesque-Light', sans-serif;
+    font-size: 25;
+}
+
+#logo {
+    display: block;
+    float: left;
+    margin: 0px;
+    margin-left: 8px;
+}
+
+nav #headermenu {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+}
+
+#headermenu li {
+    display: inline;
+    float: left;
+}
+
+ul .headerlink {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: #291;
+}
+
+
+/*-------- Homepage style ---------*/
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+#intro {
+    display: flex;
+}
+
+#intro_text h1 {
+    margin-top: 10px;
+}
+
+.brand {
+    font-family:'Cooper Std', sans-serif;
+    font-size: 50px;
+    color: #30B44B;
+    margin: 0;
+    padding: 0;
+}
+
+#intro_text h2 {
+    padding: 0;
+    font-family:'Avenir', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+
+#intro_right {
+    float: left;
+    margin-top: 80px;
+}
+
+#intro_left {
+    float: left;
+    width: 500px;
+}
+
+#intro_videos {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#intro_review {
+    margin: 10px;
+    text-align: left;
+    background-color: #69C17E;
+}
+
+.user_review {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.user_review h2 {
+    font-family: 'Marker Felt', sans-serif;
+    font-size: 25px;
+}
+
+.user_review h3 {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.review_more {
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.review_more p{
+    margin: 0;
+    color: white;
+    font-family: 'Avenir Next', sans-serif;
+}
+
+.review_more a:link {
+    text-decoration: none;
+}
+
+.review_more a:hover {
+    background-color: green;
+}
+
+.review_more a:visited {
+    color: white;
+}
+
+.review_more a:active {
+    color: white;
+}
+
+
+/*-------- Footer style ---------*/
+
+#footer {
+    background-color: black;
+    margin: 10;
+    height: 60px;
+    display: inline;
+}
+
+#copyright {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#copyright p {
+    color: white;
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+#social {
+    float: right;
+    margin: 15px 0;
+}
+
+#footer_items {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: white;
+    word-spacing: 10px;
+}
+
+#footer_items p {
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+#footer_items a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footer_items a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#footer_items a:hover {
+    color: gray;
+    text-decoration: none;
+} 
+
+#footer_items a:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
